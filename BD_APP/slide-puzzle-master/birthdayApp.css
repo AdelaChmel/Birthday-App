@@ -1,0 +1,43 @@
+:root {
+    background-color: #f9e6ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #9c00cc;
+    margin: auto;
+}
+
+/*GRID*/
+.grid-container {
+    max-width: 440px;
+    margin: 100px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 30px;
+    /*justify-content: center;*/
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 160%;
+    color: #9c00cc;
+}
+
+.love {
+    background-image: url(images/love.jpg);
+}
