@@ -1,0 +1,43 @@
+[
+  {
+    "question": "Jak dlouhé jsou všechny cévy v těle?",
+    "choice1": "960 km",
+    "choice2": "9 600 km",
+    "choice3": "96 000 km",
+    "choice4": "960 000 km",
+    "answer": 3
+  },
+  {
+    "question": "Jak rychle rostou nehty na rukou?",
+    "choice1": "0,01 mm za den",
+    "choice2": "0,1 mm za den",
+    "choice3": "1 mm za den",
+    "choice4": "10 mm za den",
+    "answer": 2
+  },
+  {
+    "question": "Kolik svalů je potřeba k jednomu kroku?",
+    "choice1": "50",
+    "choice2": "100",
+    "choice3": "200",
+    "choice4": "300",
+    "answer": 3
+  },
+  {
+    "question": "Kolik barev je schopno rozeznat lidské oko?",
+    "choice1": "10 000",
+    "choice2": "100 000",
+    "choice3": "1 000 000",
+    "choice4": "10 000 000",
+    "answer": 4
+  },
+  {
+    "question": "Za jak dlouho se obnoví všechny buňky v těle?",
+    "choice1": "3 roky",
+    "choice2": "7 let",
+    "choice3": "10 let",
+    "choice4": "15 let",
+    "answer": 2
+  }
+
+]

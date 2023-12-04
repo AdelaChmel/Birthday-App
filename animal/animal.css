@@ -1,0 +1,90 @@
+:root {
+    background: linear-gradient(45deg, #db66ff, #f3ccff);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9e6ff;
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    background: #4e0066;
+    color: #f9e6ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-family: Fredoka;
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid {
+   
+    margin: 50px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-content: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    perspective: 800px; /*gives the card 3d effect*/
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.container:hover>.card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    /*posune zadni stranu nahoru)*/
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f9e6ff;
+}
+
+.front {
+    background-color: #4e0066;
+}
+
+.back {
+    background-color: #3e1f47;
+    transform: rotateY(180deg);
+   
+}

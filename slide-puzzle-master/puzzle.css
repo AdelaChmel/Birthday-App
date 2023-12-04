@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: url("Wave.jpg");
+    padding-top: 20px;
+}
+
+#title {
+    height: 150px;
+    width: 400px;
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: #cf33ff;
+    border: 10px solid #750099;
+
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #750099;
+}
+
+.btn {
+    background: #750099;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 18pt;
+    text-decoration: none;
+}
