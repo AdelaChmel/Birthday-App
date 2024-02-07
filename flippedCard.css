@@ -36,7 +36,7 @@ p {
 
 .grid-container {
     max-width: 440px;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 20px;
     display: grid;
     grid-template-columns: 200px 200px;

@@ -1,5 +1,6 @@
 :root {
     background-image: url(images/background.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn {
@@ -9,7 +10,6 @@
     padding: 10px 20px;
     border: 0;
     cursor: pointer;
-    font-family: Fredoka;
     font-size: 18pt;
     text-decoration: none;
 }

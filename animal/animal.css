@@ -22,7 +22,6 @@ a {
     padding: 10px 20px;
     border: 0;
     cursor: pointer;
-    font-family: Fredoka;
     font-size: 18pt;
     text-decoration: none;
 }
@@ -34,7 +33,6 @@ a {
 }
 
 #grid {
-   
     margin: 50px auto;
     padding: 20px;
     display: grid;
