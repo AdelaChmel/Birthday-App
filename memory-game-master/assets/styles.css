@@ -142,3 +142,17 @@ button {
 .highlight {
     color: #6f00fc;
 }
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #c91aff;
+    color: #f3ccff;
+    text-align: center;
+}

@@ -3,6 +3,9 @@ body {
     text-align: center;
     color: white;
     background-image: url("Wave.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 20px;
 }
 
@@ -40,4 +43,16 @@ body {
         sans-serif;
     font-size: 18pt;
     text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #750099;
+    color: #f3ccff;
 }

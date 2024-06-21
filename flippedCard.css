@@ -1,6 +1,19 @@
-:root {
-    background: linear-gradient(45deg, #db66ff, #f3ccff);
+/*:root {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(45deg, #db66ff, #f3ccff);
+    height: 100%;
+}*/
+
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(45deg, #db66ff, #f3ccff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -29,7 +42,7 @@ a {
 
 p {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 160%;
     color: #9c00cc;
 }
@@ -39,8 +52,7 @@ p {
     margin: 30px auto;
     padding: 20px;
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     /*justify-content: center;*/
 }
@@ -74,10 +86,6 @@ p {
     backface-visibility: hidden;
 }
 
-.front {
-    background-image: url(https://source.unsplash.com/random/200x200/);
-}
-
 .back {
     background-color: #4e0066;
     transform: rotateY(180deg);
@@ -105,4 +113,27 @@ p {
 
 #animal {
     background-image: url(images/bezky.jpg);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #c91aff;
+    color: #f3ccff;
+}
+
+/*footer {
+    background-color: #9c00cc;
+    color: #f3ccff;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin: 0;
 }
