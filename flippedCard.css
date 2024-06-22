@@ -71,7 +71,8 @@ p {
     transform-style: preserve-3d;
 }
 
-.container:hover > .card{
+.container:hover > .card,
+.container:active > .card{
     cursor: pointer;
     transform: rotateY(180deg);
 }
@@ -136,4 +137,19 @@ footer {
     width: 100%;
     padding: 20px 0 0 0;
     margin: 0;
+}*/
+
+@media screen and (max-width: 500px) {
+    .grid-container {
+        gap: 15px;
+    }
+    #puzzle, #love, #memory, #quiz, #animal {
+        background-size: 150px;
+    }
+    .container {
+        width: 150px;
+        height: 150px;
+        perspective: 800px
+            /*gives the card 3d effect*/
+    }
 }

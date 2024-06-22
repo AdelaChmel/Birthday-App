@@ -120,7 +120,7 @@ const flipCard = card => {
             selectors.boardContainer.classList.add('flipped')
             selectors.win.innerHTML = `
                 <span class="win-text">
-                   Na balkoně u břízi najdeš další kousek!
+                   Na balkoně u břízy najdeš další kousek!
                 </span>
             `
 

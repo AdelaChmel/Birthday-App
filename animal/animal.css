@@ -47,6 +47,16 @@ a {
     height: 200px;
     perspective: 800px; /*gives the card 3d effect*/
 }
+@media screen and (max-width: 500px) {
+    .container {
+        width: 150px;
+        height: 150px;
+    }
+    #grid {
+        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 .card {
     height: 100%;
