@@ -71,9 +71,7 @@ p {
     transform-style: preserve-3d;
 }
 
-.container:hover > .card,
-.container:focus > .card,
-.container:active > .card{
+.container:hover > .card {
     cursor: pointer;
     transform: rotateY(180deg);
 }
@@ -152,5 +150,8 @@ footer {
         height: 150px;
         perspective: 800px
             /*gives the card 3d effect*/
+    }
+    .container:active>.card {
+        transform: rotateY(180deg);
     }
 }
